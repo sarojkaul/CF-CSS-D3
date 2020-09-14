@@ -1,25 +1,83 @@
-.border1{
-    border: black solid 0.1em;
-    width: 20%;
+*{
+	padding: 0;
+	margin: 0;
 }
-.border2{
-    border: black solid 0.2em;
-    background-color: black;
+
+#content{
+	border: 1px solid black;
+	width: 225px;
+	margin: auto;
+	margin-top: 30px;
+	padding:  0 4px 0 4px;
+	font-size: 10px;
 }
-.boder3{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+
+.lineFat{
+	border-top: 8px solid black;
 }
-.box1{
-    display: flex;
-    align-items: flex-start;
+
+.lineBold{
+	border-top: 4px solid black;
 }
-.box2{
-    display: flex;
-    justify-content: flex-end;
+
+.lineNormal{
+	border-top: 1.5px solid black;
 }
-.box3{
-    display: flex;
-    justify-content: flex-end;
+
+.lineGrey{
+	border-top: 2px solid lightgrey;
+}
+
+.narrow{
+	width: 35px;
+	height: auto;
+	text-align: right;
+}
+
+.wide{
+	margin: 0;
+}
+
+.indented{
+	margin-left: 10px;
+}
+
+.innerBoxRight{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.parts{	/* simplify if possible */
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.bottom{
+	width: 45px;
+}
+
+.padIndent{
+	padding-left: 10px;
+}
+
+#footer{
+	justify-content: center;
+}
+
+.footerSpacing{
+	padding: 0 3px 4px 3px;
+}
+
+.finePrint{
+	font-size: 8px;
+}
+.newDiv{
+	display: flex;
+
+	justify-content: space-around;
+}
+.bold{
+	font-weight: bold;
 }
